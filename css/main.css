@@ -1,0 +1,545 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background  : #ffffff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+body #line1 {
+	position:fixed;
+	width:100%;
+	height:16px;
+	top:0px;
+	z-index:4;
+	background: #232222;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+	background-position: left bottom;
+	-webkit-transition: background-position 0.2s 0.8s ease-out;
+    -moz-transition: background-position 0.2s 0.2s ease-out;
+    -o-transition: background-position 0.2s 0.2s ease-out;
+    -ms-transition: background-position 0.2s 0.2s ease-out;
+    transition: background-position 0.2s 0.8s ease-out;
+}
+
+body #line2 {
+	position:fixed;
+	width:100%;
+	height:16px;
+	bottom:0px;
+	z-index:4;
+	background: #232222;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+	background-position: right bottom;
+  -webkit-transition: background-position 0.6s 1.2s ease-out;
+    -moz-transition: background-position 0.2s 0.6s ease-out;
+    -o-transition: background-position 0.2s 0.6s ease-out;
+    -ms-transition: background-position 0.2s 0.6s ease-out;
+    transition: background-position 0.6s 1.2s ease-out;
+}
+
+body #line3 {
+	position:fixed;
+	height:100%;
+	width:16px;
+	left:0px;
+	top:0;
+	z-index:4;
+	background: #232222;
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+	background-position: center bottom;
+	-webkit-transition: background-position 0.2s 0.6s ease-out;
+    -moz-transition: background-position 0.2s 1s ease-out;
+    -o-transition: background-position 0.2s ease-out;
+    -ms-transition: background-position 0.2s ease-out;
+    transition: background-position 0.2s 0.6s ease-out;
+}
+
+body #line4 {
+	position:fixed;
+	height:100%;
+	width:16px;
+	top:0;
+	right:0px;
+	z-index:4;
+	background: #232222;
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+	background-position: center top;
+	-webkit-transition: background-position 0.2s 1s ease-out;
+    -moz-transition: background-position 0.2s 0.4s ease-out;
+    -o-transition: background-position 0.2s 0.4s ease-out;
+    -ms-transition: background-position 0.2s 0.4s ease-out;
+    transition: background-position 0.2s 1s ease-out;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 1.3em;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+}
+
+nav {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #232222;
+  transition: all 0.17s ease-in-out;
+}
+
+header {
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+section {
+  position: relative;
+  padding: 2.5em;
+}
+
+a:hover {
+  color: #FC4F4F;
+  text-decoration: none;
+
+}
+
+.logo {
+  width: 80px;
+}
+
+.background {
+  position:relative;
+  width:100%;
+  height:auto;
+  background-size: 100% 20px;
+  background-position: center bottom;
+  margin:0;
+}
+
+.info {
+  padding-left:0px;
+  font-size:16px;
+  letter-spacing:2px;
+  line-height:21px;
+}
+
+.line {
+  height:50px;
+  margin-right:20px;
+  float:left;
+}
+
+.blocks {
+  width: 100%;
+}
+
+.blocks img {
+  width:100%;
+}
+
+.about {
+  width: 90%;
+  margin-left: 1.5em;
+  margin-right: 2em;
+  display: inline-block;
+}
+
+.about1 {
+  margin-left: 3em;
+}
+
+.about img {
+  width:90%;
+  padding: 0;
+}
+
+.text {
+  margin-left: 3em;
+  margin-right: 5em;
+  padding-bottom: 30px;
+}
+
+.space {
+  padding-bottom: 5em;
+}
+
+.hl {
+  color: #FC4F4F;
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-left: 3em;
+  margin-right: 5em;
+}
+
+.thumb img {
+    width:100%;
+}
+
+.blank img {
+    width:100%;
+}
+
+.blank2 img {
+    width:100%;
+}
+
+.blank3 img {
+    width:100%;
+}
+
+.memo div {
+  width:100%;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #232222;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  font-family: 'Patrick Hand SC', cursive;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #232222;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #FC4F4F;
+  transition: background-color 0.17s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+#grid {
+  position:absolute;
+  width:78%;
+  max-height:auto;
+  left:11%;
+  z-index:1;
+  top:200px;
+  opacity:1;
+}
+
+#grid.fix {
+	position:fixed;
+}
+
+#footer {
+  padding: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  width: 100%;
+  clear:both;
+  padding-top:20px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+#footer a{
+  text-decoration: none;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#footer a:hover {
+  color: #FC4F4F;
+  text-decoration: none;
+  cursor:pointer;
+  background-repeat: no-repeat;
+background-size: 200% 2px;
+background-position: right bottom;
+}
+
+#footer .legal span:hover {
+	background-position: left bottom;
+}
+
+@media only screen and (min-width: 24em) {
+
+    .project {
+      width:100%;
+      cursor:pointer;
+      margin-bottom:70px;
+    }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .blocks img {
+
+    box-shadow: 10px 10px 0 #232222;
+    transition: all 0.25s ease-in-out;
+
+  }
+
+  .blocks img:hover {
+
+    box-shadow: 10px 10px 0 #FC4F4F;
+
+  }
+
+  .blocks {
+    width:100%;
+  }
+
+  .about {
+    width: 100%;
+    margin-left: 3em;
+    display: inline-block;
+  }
+
+  .cam {
+    margin-left: 3em;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+  .left {
+    position:relative;
+    float:left;
+    width:45%;
+    margin-top:0;
+  }
+
+  .right {
+    position:relative;
+    float:right;
+    width:45%;
+    margin-top:130px;
+  }
+
+  .project {
+    position:relative;
+    width:100%;
+    cursor:pointer;
+    margin-bottom:70px;
+  }
+
+  .blocks {
+    width:100%;
+  }
+
+  .blocks img {
+
+    box-shadow: 10px 10px 0 #232222;
+
+  }
+
+  .blocks img:hover {
+
+    box-shadow: 10px 10px 0 #FC4F4F;
+    transition: all 0.17s ease-in-out;
+
+  }
+
+  section {
+    position: relative;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  .about {
+    width: 110%;
+  }
+
+  .about1 {
+    padding-left: 15em;
+    padding-top: 10em;
+    display: inline-block;
+    margin-top:0;
+
+  }
+
+  .child {
+    position:relative;
+    float:right;
+    width:45%;
+  }
+
+  .contact {
+    position:relative;
+    float:left;
+    width:45%;
+    margin-top:20em;
+    text-align: right;
+  }
+
+  .form {
+    position:relative;
+    float:right;
+    width:45%;
+    margin-top:100px;
+  }
+
+  .space {
+    padding-bottom: 5em;
+  }
+
+  .picb {
+    box-shadow: 10px 10px 0 #232222;
+  }
+
+  .container {
+    margin-top: 130px;
+  }
+
+  .memo {
+    text-align: right;
+    margin-top: 110px;
+  }
+
+  .thumb {
+    position:relative;
+    float:right;
+    width:45%;
+  }
+
+  .thumb img {
+      width:90%;
+  }
+
+  .blank {
+    padding-top: 25em;
+  }
+
+  .blank2 {
+    padding-top: 8em;
+  }
+
+  .blank3 {
+    padding-top: 8em;
+  }
+
+  .blank img {
+      width:96%;
+  }
+
+  .blank2 img {
+      width:90%;
+  }
+
+  .blank3 img {
+      width:96%;
+  }
+
+  .memo div {
+    width:90%;
+  }
+
+  .r {
+    position:relative;
+    float:right;
+    width:45%;
+  }
+
+  #contact {
+    background: #F9F9F9;
+    margin: 50px 0;
+    box-shadow: 10px 10px 0 #232222;
+  }
+
+}
