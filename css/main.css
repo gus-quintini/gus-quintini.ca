@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'patrick_hand_scregular';
+  font-family: 'Patrick Hand SC';
   src: url('../fonts/patrickhandsc-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'kaushan_scriptregular';
+  font-family: 'Kaushan Script';
   src: url('../fonts/kaushanscript-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
