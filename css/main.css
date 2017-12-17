@@ -153,6 +153,7 @@ a:hover {
 
 .info {
   padding-left:0px;
+  padding-bottom:4em;
   font-size:16px;
   letter-spacing:2px;
   line-height:21px;
@@ -373,6 +374,14 @@ background-position: right bottom;
       margin-bottom:70px;
     }
 
+    .info {
+      padding-left:0px;
+      padding-bottom:0em;
+      font-size:16px;
+      letter-spacing:2px;
+      line-height:21px;
+    }
+
 
 }
 
@@ -403,6 +412,14 @@ background-position: right bottom;
 
   .cam {
     margin-left: 3em;
+  }
+
+  .info {
+    padding-left:0px;
+    padding-bottom:0em;
+    font-size:16px;
+    letter-spacing:2px;
+    line-height:21px;
   }
 
 }
@@ -463,6 +480,14 @@ background-position: right bottom;
     display: inline-block;
     margin-top:0;
 
+  }
+
+  .info {
+    padding-left:0px;
+    padding-bottom:0em;
+    font-size:16px;
+    letter-spacing:2px;
+    line-height:21px;
   }
 
   .child {
