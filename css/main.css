@@ -27,7 +27,7 @@ body {
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Patrick Hand SC', normal;
 }
 
 body #line1 {
@@ -101,12 +101,12 @@ body #line4 {
 }
 
 h1 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Kaushan Script', normal;
   padding-top: 1.3em;
 }
 
 h2 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Kaushan Script', normal;
   font-size: 25px;
 }
 
@@ -269,7 +269,7 @@ fieldset {
   background: #FFF;
   margin: 0 0 5px;
   padding: 10px;
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Patrick Hand SC', normal;
 }
 
 #contact textarea {
@@ -279,7 +279,7 @@ fieldset {
 }
 
 #contact button[type="submit"] {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Patrick Hand SC', normal;
   cursor: pointer;
   width: 100%;
   border: none;
