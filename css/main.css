@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'patrick_hand_scregular';
+  src: url('../fonts/patrickhandsc-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'kaushan_scriptregular';
+  src: url('../fonts/kaushanscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
   height: 100%;
