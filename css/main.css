@@ -228,6 +228,14 @@ a:hover {
   width:100%;
 }
 
+.error{
+  padding-top: 2em;
+}
+
+.error2{
+  color: #FC4F4F;
+}
+
 #contact {
   background: #F9F9F9;
   padding: 25px;
