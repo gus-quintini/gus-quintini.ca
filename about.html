@@ -44,19 +44,19 @@ layout: default
         <form id="contact" method="post" action="https://formspree.io/contact@gus-quintini.ca">
           <h3>Say Hello!</h3>
           <fieldset>
+            <label for="fname">Name</label>
             <input placeholder="Your name" type="text" required name="name">
           </fieldset>
           <fieldset>
-            <input placeholder="Your Email Address" type="email" required name="email">
+            <label for="lname">E-Mail</label>
+            <input placeholder="Your Email Address" type="email" required name="e-mail">
           </fieldset>
           <fieldset>
-            <input placeholder="Your Web Site (optional)" type="" name="web site">
+            <label for="subject">Message</label>
+            <textarea placeholder="Type your message here...." required name="Message"></textarea>
           </fieldset>
           <fieldset>
-            <textarea placeholder="Type your message here...." required name="text field"></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
           </fieldset>
         </form>
       </div>
