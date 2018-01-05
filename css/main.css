@@ -224,6 +224,14 @@ a:hover {
     width:100%;
 }
 
+.blankiso img {
+    width:100%;
+}
+
+.blankillus img {
+    width:100%;
+}
+
 .memo div {
   width:100%;
 }
@@ -432,6 +440,10 @@ background-position: right bottom;
 
 }
 
+.blank3 img {
+    width:100%;
+}
+
 @media only screen and (min-width: 64em) {
 
   .left {
@@ -567,7 +579,21 @@ background-position: right bottom;
   }
 
   .blank3 img {
-      width:96%;
+      width:98%;
+  }
+
+  .blankillus img {
+      width:85%;
+      padding-left: 10em;
+  }
+
+  .blankiso1 {
+    padding-top: 25em;
+  }
+
+  .blankiso img {
+      width:85%;
+      padding-left: 10em;
   }
 
   .memo div {
